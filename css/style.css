@@ -226,7 +226,7 @@ text-decoration:underline;
 }
 
 .container .posts-container .post .text{
-    color:var(--light-color);
+    color:black;
     font-size: 1.6rem;
     line-height: 1.7;
     padding:1rem 0;
@@ -426,7 +426,9 @@ text-decoration:underline;
     .container .posts-container .post .image{
         height: 30rem;;
     }
-
+    .container .posts-container .post{
+        padding: 1.5rem;
+    }
     .footer{
         flex-flow: column;
         text-align: center;
