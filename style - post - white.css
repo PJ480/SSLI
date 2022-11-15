@@ -594,16 +594,16 @@ font-size: 90px;
 
 @media (max-width: 690px) {
     .heading{
-        font-size: 40px;
+        font-size: 25px;
             }
             .heading-1{
-                font-size: 25px;
+                font-size: 20px;
             }
     .max-width{
-        padding: 0 23px;
+        padding: 0 8px;
     }
     .max-width1{
-        padding: 0 23px;
+        padding: 0 13px;
     }
     .home .home-content .text-2{
         font-size: 60px;
@@ -617,15 +617,22 @@ font-size: 90px;
     .services .serv-content .card{
         width: 100%;
     }
+    .main-box{
+        padding: 0%;
+    }
+    .main-box p{
+        font-size: 13px;
+        line-height: 18px;
+    }
 }
 
 @media (max-width: 500px) {
-    .heading{
-        font-size: 30px;
-            }
-            .heading-1{
-                font-size: 20px;
-            }
+.box-container{
+    padding: 20px;
+}
+.box-container h2{
+    font-size: x-large;
+}
     .home .home-content .text-2{
         font-size: 50px;
     }
