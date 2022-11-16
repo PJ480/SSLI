@@ -433,9 +433,6 @@ text-decoration:underline;
         padding: 5%;
         gap:0;
     }
-    .banner{
-        font-size: 90vh;
-    }
     .banner .content h3{
             font-size: 2.5rem;
         }
