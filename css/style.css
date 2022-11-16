@@ -161,12 +161,12 @@ section{
     background:#252c2786;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
-    padding:3rem 8rem;
+    padding:3rem 3rem;
     max-width: 90rem;
 }
 
 .banner .content h3{
-    font-size: 7rem;
+    font-size: 4rem;
     color:white;
     text-transform: uppercase;
     font-family: 'Antonio', sans-serif;
@@ -175,10 +175,10 @@ section{
 
 
 .banner .content p{
-    font-size: 2.7rem;
+    font-size: 5rem;
     color:rgba(245, 245, 245, 0.753);
     font-family: 'Antonio', sans-serif;
-    padding:1rem 0;
+    /* padding:1rem 0; */
     line-height: 1.5;
 }
 
@@ -432,6 +432,12 @@ text-decoration:underline;
         grid-template-columns: 1fr;
         padding: 5%;
         gap:0;
+    }
+    .banner .content h3{
+            font-size: 2.5rem;
+        }
+    .banner .content p{
+font-size: 2.2rem;
     }
 
     .container .posts-container .post .image{
