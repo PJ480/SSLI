@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Poppins:wght@400;700&family=Roboto&display=swap');
 
 :root{
     --orange:#e67e22;
@@ -15,7 +15,7 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: lighter;
 }
 
@@ -212,14 +212,23 @@ section{
     border-radius: .5rem;
     object-fit: cover;
 }
-
+.container .posts-container .post .image1{
+    height: auto;
+    width:40rem;
+    border-radius: .5rem;
+    object-fit: cover;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
 
 .container .posts-container .post .title{
     padding-top: 1.5rem;
+    font-weight: 700;
     font-size: 2.5rem;
     color:var(--green);
-    font-family: 'Antonio', sans-serif;
-    letter-spacing: 0.15rem;
+    font-family: 'Poppins', sans-serif;
+    /* letter-spacing: 0.15rem; */
 font-weight: 400;
 padding: 25px 0;
 text-decoration:underline;
@@ -379,7 +388,7 @@ text-decoration:underline;
     }    
 
     .container{
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 2fr;
     }
 
 }
